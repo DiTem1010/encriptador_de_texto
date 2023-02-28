@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.png" alt="Alura logo">
+    </header>
+    <main>
+        <section>
+           <textarea class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+           <div class="buttons">
+            <button class="encrypt" onclick="btnEncrypt()">Encriptar</button>
+            <button class="decrypt" onclick="btnDecrypt()">Desencriptar</button>
+
+           </div>
+        </section>
+        <section>
+            <textarea class="message" cols="18" rows="8"></textarea>
+            <button class="copy" onclick="copy()">Copiar</button>
+        </section>
+
+    </main>
+    <script src="./script.js"></script>
+    <footer>
+        <h2>Coded by Diglas Temoche</h2>
+    </footer>
+</body>
+</html>
